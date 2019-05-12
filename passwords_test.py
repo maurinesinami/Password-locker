@@ -1,6 +1,6 @@
 import unittest # Importing the unittest module
 from passwords import User # Importing the contact class
-
+from passwords import Credentials
 class TestUser(unittest.TestCase):
 
     '''
@@ -85,7 +85,7 @@ class TestUser(unittest.TestCase):
         '''
 
         self.new_user.save_user()
-        Contact.copy_password("trudent")
+        User.copy_password("trudent")
 
         self.assertEqual(self.new_user.password,pyperclip.paste())
 if __name__ == '__main__':
