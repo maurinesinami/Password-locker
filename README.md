@@ -14,8 +14,10 @@
  *To run the application ,pass the command 'chmod +x run.py' on your terminal
  *Follow this command with ./run.py to use the application 
 
- ###BDD
-| Behaviour  | Input  | Output  |
+ ### BDD
+
+
+| Behaviour   | Input   | Output|
 | :------------- | :------------- |:---------|
 | Accepts correct login credentials| User name & password     | Welcome 'User-name'|
 | Choose option| Select one of the short codes| Enable feature for that particular code|
@@ -23,15 +25,16 @@
 | Generate password| Select password generate option| New password|
 | Delete credentials| Choose delete credentials| Credentials are deleted|
 |Exit app| Select exit choice| App closes|
+
 ### Known bugs 
 No known bugs
 
-####Contact info
+#### Contact info
 Feel free to reach me out at 
 *Phone : 0700151874
 *Email address : maurine.sinami@gmail.com
 
-###license 
+### license 
 MIT license
 
 Copyright (c) [2019] [Maurine Sinami]
