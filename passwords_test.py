@@ -69,11 +69,16 @@ class TestUser(unittest.TestCase):
         test to check if we can return a Boolean if we don't find the user
         '''
         self.new_user.save_user()
-        test_user = User("Mulki Suleiman", "Facebook", "trudet")
+        test_user = User("polokoi", "Facebook", "trudet")
         test_user.save_user()
         user_exists = User.user_exists("Facebook")
         self.assertTrue(user_exists)
 
-       
+      def test_display_all_users(self):
+        '''
+        method that returns a list of all users saved
+        '''
+        self.assertEqual(User.display_users(),User.user_list)
+  
 if __name__ == '__main__':
     unittest.main()
