@@ -10,8 +10,14 @@
 
  #### Setup instructions
  *On Github, search maurinesinami/Password-locker
+
+
  *Clone it
+
+
  *To run the application ,pass the command 'chmod +x run.py' on your terminal
+
+
  *Follow this command with ./run.py to use the application 
 
  ### BDD
@@ -31,7 +37,11 @@ No known bugs
 
 #### Contact info
 Feel free to reach me out at 
+
+
 *Phone : 0700151874
+
+
 *Email address : maurine.sinami@gmail.com
 
 ### license 
