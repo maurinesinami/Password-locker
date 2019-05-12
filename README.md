@@ -8,7 +8,7 @@
  ### Technologies used
  * Python vs3.7
 
- ####Setup instructions
+ #### Setup instructions
  *On Github, search maurinesinami/Password-locker
  *Clone it
  *To run the application ,pass the command 'chmod +x run.py' on your terminal
