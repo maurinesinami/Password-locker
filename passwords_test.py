@@ -79,6 +79,14 @@ class TestUser(unittest.TestCase):
         method that returns a list of all users saved
         '''
         self.assertEqual(User.display_users(),User.user_list)
-  
+   def test_copy_password(self):
+        '''
+        Test to confirm that we are copying the email address from a found contact
+        '''
+
+        self.new_user.save_user()
+        Contact.copy_password("trudent")
+
+        self.assertEqual(self.new_user.password,pyperclip.paste())
 if __name__ == '__main__':
     unittest.main()
