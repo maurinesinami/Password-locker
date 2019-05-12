@@ -79,7 +79,7 @@ class TestUser(unittest.TestCase):
         method that returns a list of all users saved
         '''
         self.assertEqual(User.display_users(),User.user_list)
-   def test_copy_password(self):
+    def test_copy_password(self):
         '''
         Test to confirm that we are copying the email address from a found contact
         '''
